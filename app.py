@@ -114,7 +114,7 @@ def goal_seek(func, target, low, high, max_iter=100, tol=1e-7):
     return (low + high) / 2.0, None
 
 # 3. Header
-st.title("🧮 Smart Web Calculator")
+st.title("🧮 Not-so Smart Web Calculator")
 st.caption("Results, sensitivity analysis, and goal seek optimization update automatically.")
 
 # Initialize session state for variables if not present
